@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif,sans-serif;
+}
+section{
+    min-height: 100vh ;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+#home{
+    
+     background-color: rgb(135, 135, 135);
+     text-shadow: rgb(13, 12, 12);
+}
+#home h1{
+    font-size: 5.0rem ;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    
+    text-align: left;
+}
+#home p{
+    
+    font-style: italic;
+    color: rgb(0, 0, 0);
+    text-shadow: pink;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+.homecontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}  
+.img_deg{
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+    margin-right: 80px;
+    border-radius: 8px;
+}
+#education{
+    background: url(https://woc.aises.org/sites/default/files/styles/image730x495/public/March2020-Student-Illo-BLOGPOST-FNL.jpg?itok=sfPCAQLh)center/cover no-repeat;
+}
+#education  h1{
+    font-style: italic;
+    font-size: 35px;
+
+}
+#education p{
+    font-style: italic;
+    
+ font-size: 1.5 rem;
+ margin-bottom: 40px;
+}
+
+
